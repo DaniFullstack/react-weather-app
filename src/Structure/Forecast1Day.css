@@ -1,0 +1,63 @@
+
+
+.forecastDay {
+	text-align: center;
+	display: inline-block;
+	padding: 10px 0;
+	transition: all 0.7s;
+}
+
+.forecastDay:nth-child(1):hover {
+	box-shadow: 15px 15px 13px -7px orangered, 5px 5px 15px 5px rgba(0, 0, 0, 0);
+	background-image: linear-gradient(to bottom, rgba(255, 255, 255, 0.6) 10%,rgba(61, 54, 45, 0.432) 50%), url('https://www.telegraph.co.uk/content/dam/Travel/Destinations/Africa/Mauritius/Mauritius---Beaches---Tropical-beach.jpg?imwidth=1400');opacity: 0.6;
+	font-weight: bolder;
+	color: orangered;
+}
+
+
+.forecastDay:nth-child(2):hover {
+	box-shadow: 15px 15px 13px -7px orange, 5px 5px 15px 5px rgba(0, 0, 0, 0);
+	background-image: linear-gradient(to bottom, rgba(255, 255, 255, 0.6) 10%,rgba(61, 54, 45, 0.432) 50%), url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQaiQ0UENem090-YBS4b51Hl-8wl8VaanIotipEFb_b8jqaJpwi4LF7Ji6JdfpTa51txaaBltM7ODk&usqp=CAU');opacity: 0.6;
+	font-weight: bolder;
+	color: orange;
+}
+
+
+.forecastDay:nth-child(3):hover {
+	box-shadow: 15px 15px 13px -7px rgb(88, 84, 84), 5px 5px 15px 5px rgba(0, 0, 0, 0);
+	background-image: linear-gradient(to bottom, rgba(255, 255, 255, 0.6) 10%,rgba(61, 54, 45, 0.432) 50%), url('http://www.peoplesbudget.eu/wp/wp-content/uploads/16103534130_ec2dec6864_o.jpg');opacity: 0.6;
+	font-weight: bolder;
+	color: #666655;
+}
+
+
+
+.forecastDay:nth-child(4):hover {
+	box-shadow: 15px 15px 13px -7px rgb(204, 138, 14), 5px 5px 15px 5px rgba(0, 0, 0, 0);
+	background-image: linear-gradient(to bottom, rgba(255, 255, 255, 0.6) 10%,rgba(61, 54, 45, 0.432) 50%), url('https://media.istockphoto.com/photos/rain-on-umbrella-concept-for-bad-weather-winter-or-protection-picture-id1225022383');opacity: 0.6;
+	font-weight: bolder;
+	color: rgb(204, 138, 14);
+}
+
+.forecastDay:nth-child(5):hover {
+	box-shadow: 15px 15px 13px -7px rgb(61, 61, 146), 5px 5px 15px 5px rgba(0, 0, 0, 0);
+	background-image: linear-gradient(to bottom, rgba(255, 255, 255, 0.6) 10%,rgba(61, 54, 45, 0.432) 50%), url('http://static.fmgsuite.com/media/images/d7ab6e99-8794-464c-9dcf-8a7d688fb1ef.png');opacity: 0.6;
+	font-weight: bolder;
+	color: rgb(6, 6, 235);
+}
+
+
+.temp {
+	color: rgb(22, 10, 10);
+}
+
+.temp:hover {
+	color: rgb(247, 247, 247);
+}
+
+
+
+
+
+
+
